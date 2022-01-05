@@ -7,15 +7,24 @@ export default function App() {
 			answerOptions: [
 				{ answerText: 'AlexanderGrahamBell', isCorrect: false },
 				{ answerText: 'AlbertEinstein', isCorrect: false },
-				{ answerText: 'Nikola Tesla ', isCorrect: true },
-				{ answerText: 'ThomasAlvaEdison', isCorrect: false },
+				{ answerText: 'Nikola Tesla ', isCorrect: false },
+				{ answerText: 'ThomasAlvaEdison', isCorrect: true},
+			],
+		},
+		{
+			questionText:' 1 L is equal to how many grams?',
+			answerOptions:[
+				{answerText:'800 ml', isCorrect:false},
+				{answerText:'1000 ml', isCorrect:true},
+				{answerText:'100 ml', isCorrect:false},
+				{answerText:'200 ml',isCorrect:false}
 			],
 		},
 		{
 			questionText: 'Which planet in our solar system is known as the Red Planet?',
 			answerOptions: [
-				{ answerText: 'Jupiter', isCorrect: false },
-				{ answerText: 'Mercury', isCorrect: true },
+				{ answerText: 'Jupiter', isCorrect: true },
+				{ answerText: 'Mercury', isCorrect: false },
 				{ answerText: 'Venus', isCorrect: false },
 				{ answerText: 'Saturn', isCorrect: false },
 			],
@@ -33,12 +42,13 @@ export default function App() {
 			questionText: ' Who successfully built and flew the world’s first Aeroplane?',
 			answerOptions: [
 				{ answerText: 'Ada Lovelace', isCorrect: false },
-				{ answerText: 'The Wright Brothers', isCorrect: false },
+				{ answerText: 'The Wright Brothers', isCorrect: true },
 				{ answerText: 'Charles Darwin', isCorrect: false },
-				{ answerText: 'Marie Curie', isCorrect: true },
+				{ answerText: 'Marie Curie', isCorrect: false },
 			],
 		},
 	];
+	
 
 	const [currentQuestion, setCurrentQuestion] = useState(0);
 	const [showScore, setShowScore] = useState(false);
