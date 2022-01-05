@@ -3,39 +3,39 @@ import React, { useState } from 'react';
 export default function App() {
 	const questions = [
 		{
-			questionText: 'What is the capital of France?',
+			questionText: 'Who invented the Light Bulb?',
 			answerOptions: [
-				{ answerText: 'New York', isCorrect: false },
-				{ answerText: 'London', isCorrect: false },
-				{ answerText: 'Paris', isCorrect: true },
-				{ answerText: 'Dublin', isCorrect: false },
+				{ answerText: 'AlexanderGrahamBell', isCorrect: false },
+				{ answerText: 'AlbertEinstein', isCorrect: false },
+				{ answerText: 'Nikola Tesla ', isCorrect: true },
+				{ answerText: 'ThomasAlvaEdison', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'Who is CEO of Tesla?',
+			questionText: 'Which planet in our solar system is known as the Red Planet?',
 			answerOptions: [
-				{ answerText: 'Jeff Bezos', isCorrect: false },
-				{ answerText: 'Elon Musk', isCorrect: true },
-				{ answerText: 'Bill Gates', isCorrect: false },
-				{ answerText: 'Tony Stark', isCorrect: false },
+				{ answerText: 'Jupiter', isCorrect: false },
+				{ answerText: 'Mercury', isCorrect: true },
+				{ answerText: 'Venus', isCorrect: false },
+				{ answerText: 'Saturn', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'The iPhone was created by which company?',
+			questionText: ' Who discovered Penicillin?',
 			answerOptions: [
-				{ answerText: 'Apple', isCorrect: true },
-				{ answerText: 'Intel', isCorrect: false },
-				{ answerText: 'Amazon', isCorrect: false },
-				{ answerText: 'Microsoft', isCorrect: false },
+				{ answerText: 'Alexander  Fleming', isCorrect: true },
+				{ answerText: 'Alexandergrahambell', isCorrect: false },
+				{ answerText: 'IssacNewton', isCorrect: false },
+				{ answerText: 'Galileo Galilei', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'How many Harry Potter books are there?',
+			questionText: ' Who successfully built and flew the world’s first Aeroplane?',
 			answerOptions: [
-				{ answerText: '1', isCorrect: false },
-				{ answerText: '4', isCorrect: false },
-				{ answerText: '6', isCorrect: false },
-				{ answerText: '7', isCorrect: true },
+				{ answerText: 'Ada Lovelace', isCorrect: false },
+				{ answerText: 'The Wright Brothers', isCorrect: false },
+				{ answerText: 'Charles Darwin', isCorrect: false },
+				{ answerText: 'Marie Curie', isCorrect: true },
 			],
 		},
 	];
